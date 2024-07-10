@@ -9,10 +9,15 @@ Step 2. Download Extension package file
 Step 3. Upload & Unzip package folders to store root
 
 Step 4. Login into SSH console & reach to store root folder:
+
     Open Magento Root directory & run below series of commands one by one
+    
     php bin/magento setup:upgrade
+    
     php bin/magento setup:di:compile
+    
     php bin/magento setup:static-content:deploy
+    
     php bin/magento cache:flush
 
 Step 5. From Backend,System > Cache Management.
