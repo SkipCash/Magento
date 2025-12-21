@@ -10,7 +10,11 @@ Step 3. Upload & Unzip package folders to store root
 
 Step 4. Login into SSH console & reach to store root folder:
 
-    Open Magento Root directory & run below series of commands one by one
+    Open Magento Root directory & create this path /app/code/PaymentGateway
+
+    Place the zipped folder inside the PaymentGateway folder and unzip
+
+    Run the below commands: 
     
     php bin/magento setup:upgrade
     
